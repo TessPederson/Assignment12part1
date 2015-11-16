@@ -99,6 +99,10 @@ header {
 	float: left;
 }
 
+.about_us p {
+	margin: 15px;
+}
+
 section .latest_work {
 	height: 100%;
 	z-index: static;
