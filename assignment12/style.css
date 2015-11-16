@@ -1,0 +1,173 @@
+/* style.css */
+
+/* Globals */
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  font-family: "fontawesome";
+  /*border: 1px solid red;*/
+}
+
+@font-face {
+    font-family: "fontawesome";
+    src: url("fonts/fontawesome-webfont.woff");
+}
+
+/* Page Header */
+
+h1,h2, figcaption, header {
+	text-transform: uppercase;
+}
+
+ h2 {
+	margin: 20px 0;
+	font-size: 1.25em;
+}
+
+header {
+	display: block;
+	position: fixed;
+	height: 70px;
+	background-color: black;
+	width: 100%;
+	color: white;
+	display: block;
+	margin: 0;
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 20px;
+	z-index: 2;
+}
+
+ header p {
+ 	display: inline-block;
+ }
+ header nav {
+ 	clear: left;
+ 	float: right;
+ }
+
+.intro { 
+	position: static;
+	display: block;
+	text-transform: uppercase;
+	margin: 0;
+	background-image: url("images/purple-bg.jpeg");
+	padding: 110px 0;
+	text-align: center;
+	height: 480px;
+	display: block;
+	color: white;
+}
+
+.intro h1{
+	font-size: 4em;
+	margin: 50px;
+}
+
+.intro a{
+	border: 3px solid white;
+	padding: 10px;
+	margin: 70px;
+	color: white;
+	text-decoration: none;
+	font-size: 3em;
+}
+
+.intro a:hover {
+	background-color: white;
+	color: black;
+}
+
+.about_us, .latest_work {
+	padding: 40px 20px;
+	margin: 0;
+	line-height: 1.5em;
+	
+}
+
+.about_us {
+	border-bottom: 2px solid lightgray;
+}
+
+.about_us {
+	display: inline-block;
+	float: left;
+}
+
+section .latest_work {
+	height: 100%;
+	z-index: static;
+	margin: 20px;
+}
+
+.latest_work h2 {
+	display: relative;
+	float: left;
+	padding: 40px 0;
+	margin: 0;
+	width: 100%;
+}
+
+.latest_work figure {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 1px;
+	width: 49%;
+	z-index; -1
+}
+
+.latest_work img {
+	width: 100%;
+	margin: 0;
+	display: block;
+}
+
+.latest_work figcaption {
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	float: left;
+}
+
+.latest_work a {
+	position: absolute;
+	padding: 20px;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: hsla(0, 100%, 100%, 0.5);
+	float: left;
+}
+
+.latest_work a:visited {
+	color: black;
+}
+
+.latest_work a:hover {
+	background-color: transparent;
+	color: white;
+}
+
+footer {
+	clear: left;
+	width: 100%;
+	margin: 0;
+	padding: 40px;
+	text-align: center;
+	border-top: 2px solid lightgray;
+	display: inline-block;
+	font-size: 1.25em;
+}
