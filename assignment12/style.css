@@ -35,7 +35,6 @@ header {
 	background-color: black;
 	width: 100%;
 	color: white;
-	display: block;
 	margin: 0;
 	font-size: 1.25em;
 	font-weight: bold;
@@ -52,24 +51,38 @@ header {
  }
 
 .intro { 
+	background-image: url("images/purple-bg.jpeg");
+}
+
+.contact_us  {
+	clear: both;
+	float: left;
+	background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");
+	background-repeat: no-repeat;
+	display: block;
+	position: static;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+
+.intro, .contact_us{ 
 	position: static;
 	display: block;
 	text-transform: uppercase;
 	margin: 0;
-	background-image: url("images/purple-bg.jpeg");
 	padding: 110px 0;
 	text-align: center;
 	height: 480px;
-	display: block;
 	color: white;
 }
 
-.intro h1{
+.contact_us p, .intro h1 {
 	font-size: 4em;
 	margin: 50px;
 }
 
-.intro a{
+.intro a, .contact_us a{
 	border: 3px solid white;
 	padding: 10px;
 	margin: 70px;
@@ -168,10 +181,13 @@ section .latest_work {
 footer {
 	clear: left;
 	width: 100%;
-	margin: 0;
-	padding: 40px;
 	text-align: center;
-	border-top: 2px solid lightgray;
 	display: inline-block;
 	font-size: 1.25em;
+}
+
+footer, .contact_us {
+	border-top: 2px solid lightgray;
+	margin: 40px 0 0 0;
+	padding: 40px 0;
 }
