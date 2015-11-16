@@ -126,6 +126,7 @@ section .latest_work {
 	width: 100%;
 	margin: 0;
 	display: block;
+	clip: rect(0, 640px, 480px,0)
 }
 
 .latest_work figcaption {
